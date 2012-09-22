@@ -1,3 +1,0 @@
-#Installation
-
-*Work in progress*

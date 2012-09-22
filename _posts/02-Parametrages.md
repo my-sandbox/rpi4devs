@@ -1,3 +1,0 @@
-#Paramétrages
-
-*Work in progress*
