@@ -1,12 +1,3 @@
-
-      ____       ____  _ _  _       _                
-     |  _ \     |  _ \(_) || |   __| | _____   _____ 
-     | |_) |____| |_) | | || |_ / _` |/ _ \ \ / / __|
-     |  _ <_____|  __/| |__   _| (_| |  __/\ V /\__ \
-     |_| \_\    |_|   |_|  |_|  \__,_|\___| \_/ |___/
-    
-
-
 #Introduction
 
 Ce site est un mini guide pour l'utilisation du [Raspberry Pi](http://www.raspberrypi.org/) (si vous voulez savoir ce que c'est Google est votre ami). Ce quide ne concerne pas tous les utilisateurs du R-Pi, mais plutôt ceux qui le destine à devenir une machine expérimentale de développement, autrement dit : un serveur de développement mobile. Mais il y a tout de même quelques astuces qui peuvent servir à tous.
