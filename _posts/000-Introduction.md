@@ -1,10 +1,30 @@
+
+      ____       ____  _ _  _       _                
+     |  _ \     |  _ \(_) || |   __| | _____   _____ 
+     | |_) |____| |_) | | || |_ / _` |/ _ \ \ / / __|
+     |  _ <_____|  __/| |__   _| (_| |  __/\ V /\__ \
+     |_| \_\    |_|   |_|  |_|  \__,_|\___| \_/ |___/
+     
+
 #Introduction
 
-Maecenas sed diam eget risus varius blandit sit amet non magna. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Sed posuere consectetur est at lobortis. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur.
+Ce site est un mini guide pour l'utilisation du [Raspberry Pi](http://www.raspberrypi.org/) (si vous voulez savoir ce que c'est Google est votre ami). Ce quide ne concerne pas tous les utilisateurs du R-Pi, mais plutôt ceux qui le destine à devenir une machine expérimentale de développement, autrement dit : un serveur de développement mobile. Mais il y a tout de même quelques astuces qui peuvent servir à tous.
 
-Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed posuere consectetur est at lobortis. Nullam quis risus eget urna mollis ornare vel eu leo. Maecenas faucibus mollis interdum. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Maecenas faucibus mollis interdum.
+Que ce soit pour l'installation, ou l'utilisation de la bête, je n'utiliserais jamais de clavier, ni d'écran, ni de souris. Tout se fera en mode "headless".
 
-Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Curabitur blandit tempus porttitor. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper nulla non metus auctor fringilla.
+Donc vous n'aurez besoin que de :
 
-Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas faucibus mollis interdum. Nullam id dolor id nibh ultricies vehicula ut id elit.
+- la bête (le R-Pi)
+- un chargeur de téléphone
+- un cable réseau
+- une box (j'ai testé la procédure d'installation avec Numéricable & Free, mais n'importe quel routeur devrait faire l'affaire)
+- un ordinateur pour se connecter en ssh sur le R-Pi (pour les postes Windows, munissez vous de Putty)
+
+Bonnes Geekeries
+
+*K33g_org*
+
+<hr>
+Ce site est "propulsé" par [GitHub](https://github.com/), [Backbone](http://backbonejs.org/) & [GH3](https://github.com/k33g/gh3). Tous les [chapitres](https://github.com/k33g/rpi4devs) sont au format markdown, il sera donc très facile d'en générer un ebook.
+
 
