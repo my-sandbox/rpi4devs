@@ -18,7 +18,7 @@ Bon, le R-Pi n'est pas une bête de course, Java n'est peut-être pas la technol
 
 Ceux qui me suivent ont peut-être compris que je n'utilisais maintenant que la version open-source du JDK sur OSX (c'est à cause (grâce à) de Monsieur [@hgomez](https://twitter.com/hgomez) et [http://code.google.com/p/openjdk-osx-build/](http://code.google.com/p/openjdk-osx-build/)), donc je vais faire pareil pour le R-Pi.
 
-Dachez donc qu'il existe un portage de l'OpenJDK (6 & 7) pour l'architecture ARM [http://openjdk.java.net/projects/zero/](http://openjdk.java.net/projects/zero/).
+Sachez donc qu'il existe un portage de l'OpenJDK (6 & 7) pour l'architecture ARM [http://openjdk.java.net/projects/zero/](http://openjdk.java.net/projects/zero/).
 
 Et comment on fait pour l'installer ? Rien de plus simple : `sudo apt-get install openjdk-7-jdk`.
 
