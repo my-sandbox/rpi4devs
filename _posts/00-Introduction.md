@@ -17,7 +17,9 @@ Bonnes Geekeries
 *K33g_org*
 
 <hr>
-Ce site est "propulsé" par [GitHub](https://github.com/), [Backbone](http://backbonejs.org/) & [GH3](https://github.com/k33g/gh3). Tous les [chapitres](https://github.com/k33g/rpi4devs) sont au format markdown, il sera donc très facile d'en générer un ebook.
+Ce site est "propulsé" par [GitHub](https://github.com/), [Backbone](http://backbonejs.org/) & [GH3](https://github.com/k33g/gh3). Les décors sont de [Twitter Bootstrap](http://twitter.github.com/bootstrap/) et [Bootswatch](http://bootswatch.com/). Les commentaires sont gérés par [Disqus](http://disqus.com/).
+
+Tous les [chapitres](https://github.com/k33g/rpi4devs) sont au format markdown, il sera donc très facile d'en générer un ebook.
 <hr>
 
 ##N'hésitez pas à :
