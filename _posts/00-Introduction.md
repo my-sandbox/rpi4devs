@@ -20,3 +20,9 @@ Bonnes Geekeries
 Ce site est "propulsé" par [GitHub](https://github.com/), [Backbone](http://backbonejs.org/) & [GH3](https://github.com/k33g/gh3). Tous les [chapitres](https://github.com/k33g/rpi4devs) sont au format markdown, il sera donc très facile d'en générer un ebook.
 
 
+##N'hésitez pas à :
+
+- me corriger
+- ajouter un chapitre
+
+... les pullrequests sont là pour ça : [https://github.com/k33g/rpi4devs](https://github.com/k33g/rpi4devs) ... Donc **forkez !!!**.
