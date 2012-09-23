@@ -35,15 +35,15 @@ Si tout va bien, il vous sera demandé le nom de l'utilisateur (dans le cas de l
 
 **Saisir le nom de l'utilisateur :**
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/001.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/001.PNG)
 
 **Saisir le mot de passe de l'utilisateur :**
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/002.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/002.PNG)
 
 **Yes !!! Connecté ! :**
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/003.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/003.PNG)
 
 ##Configuration du R-Pi
 
@@ -51,62 +51,62 @@ Si tout va bien, il vous sera demandé le nom de l'utilisateur (dans le cas de l
 
 Respirez, et tapez votre première commande : `sudo raspi-config` est vous obtenez l'écran suivant :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/004.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/004.PNG)
 
 Normalement vous n'avez pas grand chose à faire, si ce n'est sélectionner le choix `expand_rootfs` qui permettra à la distribution **Raspbian** d'utiliser toute la place sur la SD Card.
 
 Vous pouvez ensuite configurer le modèle de clavier (mais normalement en mode headless ce n'est pas nécessaire) :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/005.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/005.PNG)
 
 Pour le "layout du clavier", choisir `Other` :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/006.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/006.PNG)
 
 Puis choisir `French` pour le pays d'origine
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/007.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/007.PNG)
 
 Et enfin le bon "layout" :
 
 Si vous avez un mac : 
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/008.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/008.PNG)
 
 Sinon : 
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/009.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/009.PNG)
 
 Ensuite, il vous sera demandé le fonctionnement de `AltGr` :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/010.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/010.PNG)
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/011.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/011.PNG)
 
 Puis de `Control+Alt+Backspace` (je n'ai rien choisi) :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/012.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/012.PNG)
 
 Vous validez vos choix, ça va mouliner un petit peu :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/013.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/013.PNG)
 
 
 ###Mettre à jour
 
 "Tentez" une mise à jour de votre distribution :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/014.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/014.PNG)
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/016.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/016.PNG)
 
 Et enfin `<Finish>` :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/017.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/017.PNG)
 
 Cela va "mouliner" un peu, puis vous allez revenir à la ligne de commande :
 
-![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/_posts/imgs/018.PNG)
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/018.PNG)
 
 ##A savoir :
 
