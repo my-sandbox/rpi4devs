@@ -8,7 +8,7 @@
 >	- *Ce que je ne suis pas arrivé à faire*
 >	- *... à compléter ...*
 
-
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/04-000-Java.jpeg)
 
 Bon, le R-Pi n'est pas une bête de course, Java n'est peut-être pas la technologie la plus légère du monde, mais elle arrive à trouver sa place sur le R-Pi (heureusement).
 
