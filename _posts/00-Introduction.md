@@ -1,6 +1,6 @@
 #Introduction
 
-Ce site est un mini guide pour l'utilisation du [Raspberry Pi](http://www.raspberrypi.org/) (si vous voulez savoir ce que c'est Google est votre ami). Ce quide ne concerne pas tous les utilisateurs du R-Pi, mais plutôt ceux qui le destine à devenir une machine expérimentale de développement, autrement dit : un serveur de développement mobile. Mais il y a tout de même quelques astuces qui peuvent servir à tous.
+Ce site est un mini guide pour l'utilisation du [Raspberry Pi](http://www.raspberrypi.org/) (si vous voulez savoir ce que c'est Google est votre ami). Ce guide ne concerne pas tous les utilisateurs du R-Pi, mais plutôt ceux qui le destinent à devenir une machine expérimentale de développement, autrement dit : un **serveur de développement mobile**. Mais il y a tout de même quelques astuces qui peuvent servir à tous.
 
 Que ce soit pour l'installation, ou l'utilisation de la bête, je n'utiliserais jamais de clavier, ni d'écran, ni de souris. Tout se fera en mode "headless".
 
