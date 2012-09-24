@@ -72,6 +72,8 @@ Enfin, sauvegardez. Si vous ouvrez une autre session ssh et que vous tapez `groo
 
 Alors, la compilation est un peu lente, mais Play!► 1 fonctionne sur le R-Pi (je suis à 2 doigts de revenir en arrière ... par rapport à Play!► 2).
 
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/04-005-Java.jpeg)
+
 ###Installation :
 
 - Téléchargez play : `wget http://download.playframework.org/releases/play-1.2.5.zip`
