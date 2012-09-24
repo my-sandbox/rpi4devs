@@ -68,6 +68,90 @@ Enfin, sauvegardez. Si vous ouvrez une autre session ssh et que vous tapez `groo
 
 ![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/04-003-Java.png)
 
+##Play!► 1
+
+Alors, la compilation est un peu lente, mais Play!► 1 fonctionne sur le R-Pi (je suis à 2 doigts de revenir en arrière ... par rapport à Play!► 2).
+
+###Installation :
+
+- Téléchargez play : `wget http://download.playframework.org/releases/play-1.2.5.zip`
+- dé-zippez : `unzip play-1.2.5.zip`
+- éditez le fichier de configuration : `sudo pico ~/.profile` :
+
+Ajoutez la variable d'environnement :
+
+	export PLAY_HOME=/home/pi/play-1.2.5
+	export PATH=$PATH:$PLAY_HOME
+
+Sauvegarder, ouvrez une autre session et tapez `play` pour vérification.
+
+###Testez rapidement :
+
+Commencez par créer une nouvelle application : `play demo`.
+
+####Création d'un modèle
+
+Créer un modèle `/demo/app/models/Version.java` :
+
+	package models;
+
+	public class Version {
+
+	        public String reference;
+	        public String name;
+
+	        public Version() {
+	                this.reference = "v° zero";
+	                this.name = "proto pour les potos";
+	        }
+
+	}
+
+####Modification du contrôleur Application
+
+Modifiez le code du contrôleur `/demo/app/controllers/Application.java` :
+
+	package controllers;
+
+	import play.*;
+	import play.mvc.*;
+
+	import java.util.*;
+
+	import models.*;
+
+	public class Application extends Controller {
+
+	    public static void index() {
+	        Version version = new Version();
+	        render(version);
+	    }
+
+	}
+
+####Modification de la vue principale
+
+Modifiez la vue `/demo/app/views/Application/index.html` :
+
+	#{extends 'main.html' /}
+	#{set title:'K33G_ORG' /}
+
+	<hr>
+	<b>Version : ${version.reference} ${version.name}</b>
+	<hr>
+
+####Lancez :
+
+- `cd demo`
+- `play run`
+- Ouvrez un navigateur sur votre micro et appelez `http://ip_du_raspbery:9000`
+- Attendre, attendre, attendre et ...
+
+ ... Magique :
+
+![Alt "img"](https://github.com/k33g/rpi4devs/raw/master/imgs/04-004-Java.png)
+
+
 ##Ce que je ne suis pas arrivé à faire :
 
 - faire "tourner" Playframework 2
@@ -75,7 +159,7 @@ Enfin, sauvegardez. Si vous ouvrez une autre session ssh et que vous tapez `groo
 
 ##A tester :
 
-- faire tourner Playframework 1
+- ???
 
 ##A venir :
 
