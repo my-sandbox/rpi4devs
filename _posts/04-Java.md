@@ -5,6 +5,7 @@
 >	- *Installer OpenJDK 7*
 >	- *Installer Vert.x*
 >	- *Installer Groovy*
+>	- *Installer Play!► 1*
 >	- *Ce que je ne suis pas arrivé à faire*
 >	- *... à compléter ...*
 
