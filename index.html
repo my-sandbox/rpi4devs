@@ -1,270 +1,38 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
 
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
 
-    <!--<link rel="stylesheet/less" href="app/assets/bootstrap/less/bootstrap.less">-->
+    <title>Rpi4devs by k33g</title>
+  </head>
 
-	<link href="app/assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<link href="app/assets/stylesheets/custom.css" rel="stylesheet">
-	<link href="app/assets/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+  <body>
 
-    <title>R-Pi 4 Devs</title>
+    <header>
+      <div class="container">
+        <h1>Rpi4devs</h1>
+        <h2>raspberry-π-4devs</h2>
 
-</head>
+        <section id="downloads">
+          <a href="https://github.com/k33g/rpi4devs/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/k33g/rpi4devs/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/k33g/rpi4devs" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
 
-<body>
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a name="raspberry-%CF%80-4devs" class="anchor" href="#raspberry-%CF%80-4devs"><span class="octicon octicon-link"></span></a>raspberry-π-4devs</h1>
+      </section>
+    </div>
 
-
-
-		<!-- ============================================================= -->
-		<!--
-			<%= blog.masterBranch.repositoryName %>
-
-		-->
-        <script type="text/template" id="header-template">
-        	<div class="navbar navbar-fixed-top">
-				<div class="navbar-inner">
-					<div class="container">
-						
-						<a class="brand" href="#"><h1>Raspberry ∏ 4 Devs</h1></a>
-					</div>
-					
-				</div>
-				
-		</div>
-        </script>
-        <div id='header-container'></div>
     
-        <!-- ============================================================= -->
-
-        <div class="container-fluid">
-
-        	<div class="row-fluid>"
-
-        			<!-- -->
-        			
-		        	<!-- ============================================================= -->
-		        	<!--<h1><%= masterBranch.repositoryName %></h1>-->
-		        	<!--<h2>by <%= masterBranch.user.login %></h2>-->
-		        	<!--<h3><%= masterBranch.user.blog %></h3>-->
-
-			        <script type="text/template" id="title-template">
-			        	<div>
-
-							
-						</div>
-			        </script>
-			        <div id='title-container'></div>
-			        <!-- ============================================================= -->
-
-			        <script type="text/template" id="postslist-template">
-				        <div class="span3">
-
-   						<h3>Table des matières</h3>
-				        	<ul>
-				        		<% _.each(posts ,function(post){ %>
-				        			<li> <a href=<%= "#!post/"+ post.get("name") %>><%= post.get("name") %></a></li>
-								<% }); %>
-				        	</ul>					        
-
-					    </div>
-			        </script>
-
-	
-			        <div id='postslist-container'></div>
-			        <!-- ============================================================= --> 
-
-		        	<!-- ============================================================= -->
-			        <script type="text/template" id="posts-template">
-				        <div class="span9">
-				        	<div class="content">
-
-				        		<% _.each(posts ,function(post){ %>
-
-
-				        			<div class="alert alert-block">
-
-					        		
-					        			<% if(post.get("previous_post_name")) { %>  
-					        				<span class="icon-backward"> </span><a href=<%= "#!post/"+ post.get("previous_post_name") %>><%= post.get("previous_post_name") %></a> 
-					        			<% } %>
-					        			|
-					        			<% if(post.get("next_post_name")) { %>
-					        				<a href=<%= "#!post/"+ post.get("next_post_name") %>><%= post.get("next_post_name") %></a> <span class="icon-forward"></span>        
-					        			<% } %>
-
-
-					        			<br>
-
-					        			Created at : <%= post.attributes.getFirstCommit().date %> by <%= post.attributes.getFirstCommit().author.login %><br>
-					        			<i><%= post.attributes.getFirstCommit().message %> </i>
-					        		</div>
-
-				        			<p>
-				        				<%= mdConverter.makeHtml(post.get("rawContent")) %>
-				        			</p>
-
-				        			<hr>
-					        		<% if(posts.length == 1) { %> 
-
-					        			
-
-					        		<% } %>
-
-								<% }); %>
-				        	</div>
-				        </div>
-			        </script>
-			        <div id='posts-container'></div>
-
-
-			        <!-- ============================================================= -->
-
-		    </div>
-
-
-
-
-
-    	</div>
-
-        <!-- ================== DISQUS =================================== -->
-		<footer>
-
-			<div class="container-fluid">
-			  <div class="row-fluid">
-			    <div class="span3">
-			      <!--Sidebar content-->
-			    </div>
-			    
-<!-- ============================================================= -->
-<a href="https://twitter.com/share" class="twitter-share-button" data-via="k33g_org">Tweet</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-<!-- Place this tag where you want the +1 button to render. -->
-<div class="g-plusone" data-size="medium" data-annotation="inline" data-width="300"></div>
-
-<!-- Place this tag after the last +1 button tag. -->
-<script type="text/javascript">
-  window.___gcfg = {lang: 'fr'};
-
-  (function() {
-    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-    po.src = 'https://apis.google.com/js/plusone.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-  })();
-</script>
-<!-- ============================================================= -->				    
-			    
-			    
-			    
-			    <div id="disqus_thread" class="span9">
-			      <!--Body content-->
-			    </div>
-			  </div>
-			</div>
-
-
-		</footer>
-
-
-
-
-		<script type="text/javascript">
-			
-		    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-
-		    var disqus_shortname = 'rpi4devs'; //hastietests hastie
-		    var disqus_identifier = 'index';
-		    var disqus_developer = '1';
-
-
-		    /* * * DON'T EDIT BELOW THIS LINE * * */
-		    (function() {
-		        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-		        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-		        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-		    })();
-		</script>
-		<!--
-		<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-		<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-		-->
-		<!-- ============================================================= -->
-
-</body>
-
-<!-- === Vendors === -->
-<script src="app/assets/javascripts/jquery-1.7.2.js"></script>
-<script src="app/assets/javascripts/underscore.js"></script>
-<script src="app/assets/javascripts/backbone.js"></script>
-<script src="app/assets/javascripts/async.js"></script>
-<script src="app/assets/javascripts/showdown.js"></script>
-<script src="app/assets/javascripts/gh3.js"></script>
-<script src="app/assets/bootstrap/js/bootstrap.min.js"></script>
-
-<!-- === Modules === -->
-<script src="app/modules/backbone.controller.js"></script>
-<script src="app/modules/backbone.kind.js"></script>
-
-<script src="app/global.js"></script>
-
-<!-- === Models and Collections === -->
-<script src="app/models/jekyllblog.js"></script>
-<script src="app/models/post.js"></script>
-
-<!-- === Controllers === -->
-<script src="app/controllers/blogcontroller.js"></script>
-
-<!-- === Views === -->
-<script src="app/views/headerview.js"></script>
-<script src="app/views/titleview.js"></script>
-<script src="app/views/postsview.js"></script>
-<script src="app/views/postslistview.js"></script>
-
-<!-- === Routes === -->
-<script src="conf/routes.js"></script>
-
-
-<script>
-	$("#disqus_thread").hide();	
-	$(function (){
-		
-		window.blog = new JekyllBlog(function () {
-
-			console.log("blog data ready ...", blog);
-			window.jekyllRoutes = new RoutesManager();
-	    	//Backbone.history.start({pushState: true}); 
-
-			blog.posts.backgroundFetch({
-				success:function(res){ console.log("all content is loaded"); }
-			});
-
-	    	Backbone.history.start();
-		});
-		
-		
-    }); //End of $(function (){...}	
-
-</script>
-
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-11383603-8']);
-  _gaq.push(['_trackPageview']);
-
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>
-
-
+  </body>
 </html>
